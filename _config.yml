@@ -1,7 +1,7 @@
 #Site settings
 name: Mike Ray's Online Projects
 title: All my github Repository News
-tagline: Code, ideas, projects, comments
+tagline: Code, ideas, projects, reference, comments
 baseurl: ''
 url: "https://cromarty.github.io/"
 
@@ -22,7 +22,20 @@ include: ["_drafts"]
 include: ["_pages"]
 
 collections:
+
   ttsprojects:
+    output: true
+    permalink: /:collection/:path/ 
+
+  rpi-stuff:
+    output: true
+    permalink: /:collection/:path/ 
+
+  dmm:
+    output: true
+    permalink: /:collection/:path/ 
+
+  nvda-treespy:
     output: true
     permalink: /:collection/:path/ 
 
