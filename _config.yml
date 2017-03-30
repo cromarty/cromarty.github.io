@@ -1,0 +1,49 @@
+#Site settings
+name: Mike Ray's Online Projects
+title: All my github Repository News
+tagline: Code, ideas, projects, comments
+baseurl: ''
+url: "https://cromarty.github.io/"
+
+# Build settings
+markdown: kramdown
+markdown_ext: "kd,kdwn,kdown,kramdown,md,mdwn,mdown,mk,markdown,kk"
+kramdown:
+#    auto_ids: true
+paginate: 4
+paginate_path: '/page:num/'
+permalink: /:title/
+
+# gems
+gems: [jekyll-paginate]
+
+# includes
+include: ["_drafts"]
+include: ["_pages"]
+
+collections:
+  ttsprojects:
+    output: true
+    permalink: /:collection/:path/ 
+
+
+# defaults
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: page
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
