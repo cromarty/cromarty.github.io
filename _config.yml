@@ -21,6 +21,9 @@ gems: [jekyll-paginate]
 include: ["_drafts"]
 include: ["_pages"]
 
+# excludes
+exclude: [new_post.pl]
+
 collections:
 
   ttsprojects:

@@ -1,0 +1,11 @@
+---
+layout: posts
+page-type: post
+date: [% date %]
+title: [% title %]
+categories: [categories,...]
+tags: [tags,...]
+---
+
+Write your post here
+
