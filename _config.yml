@@ -1,6 +1,6 @@
 #Site settings
 name: Cromarty's Online Projects
-title: All my github repository info
+title: Cromarty at github
 tagline: Code, ideas, projects, reference, comments
 baseurl: ''
 url: "https://cromarty.github.io/"
@@ -22,7 +22,7 @@ include: ["_drafts"]
 include: ["_pages"]
 
 # excludes
-exclude: [new_post.pl]
+exclude: [new_post.pl, templates]
 
 collections:
 
