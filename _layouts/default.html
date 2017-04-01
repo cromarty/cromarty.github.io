@@ -25,22 +25,38 @@
 <img src="{{site.baseurl}}/images/guide_dog_tux.gif" alt-"Tux penguin with guide dog">
 </a>
 -->
+
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <header role="banner" class="page-header" id="top">
  <h1>{{site.name}}</h1>
  <h1>{{site.title}}</h1>
  <p>{{site.tagline}}</p>
+
+<!-- start of navigation stuff -->
+
 <nav role="navigation">
 <input type="checkbox" id="menu-toggle">
-<label for="menu-toggle" class="toggle-label"><span>menu</span></label>
+<label for="menu-toggle" class="toggle-label">
+<span>menu</span>
+</label>
 <ul class="menu">
-  <li><a href="{{site.baseurl}}/index.html" title="Articles">Home</a></li>
-  <li><a href="{{site.baseurl}}/about/" title="learn more">About</a></li>
-  <li><a href="{{site.baseurl}}/ttsprojects/">ttsprojects</a></li>
+  <li>
+<a href="{{site.baseurl}}/index.html" title="Articles">Home</a>
+</li>
+  <li>
+<a href="{{site.baseurl}}/about/" title="learn more">About</a>
+</li>
+  <li>
+<a href="{{site.baseurl}}/ttsprojects/">ttsprojects</a>
+</li>
   </ul>
 </nav>
+
+<!-- end of navigation stuff -->
+
 </header>
+
 <main id="content">
  {{content}}
       {% include footer.html %}
