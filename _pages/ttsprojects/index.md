@@ -37,11 +37,6 @@ I intend that the parser formed by the above mentioned code could be used to esi
 
 Work is ongoing as of April 2017.
 
-Clone thusly:
-
-~~~~~~~
-	git clone https://github.com/cromarty/ttsprojects.git
-~~~~~~~
 
 [rpi]: https://www.raspberrypi.org/
 
