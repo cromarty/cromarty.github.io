@@ -11,7 +11,7 @@ The alternative emacspeak server I'm writing is now working.
 
 I started writing this a long time ago and it stagnated but now something is working.
 
-There is `x86_64` code which uses the parser, and there is also code now for the [Raspberry 
+There is `x86` code which uses the parser, and there is also code now for the [Raspberry 
 Pi][rpi], but 
 work is still in beta.
 
