@@ -1,4 +1,5 @@
 ---
+layout: posts
 title: Parse::Yapp Grammar
 categories: [posts]
 tags: [Perl, Yapp, Yacc, Grammar, Emacspeak, Parser]
