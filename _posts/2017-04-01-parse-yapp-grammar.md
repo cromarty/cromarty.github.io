@@ -1,8 +1,9 @@
 ---
 layout: posts
+date: 2017-04-01 10:57:12 +1
 title: Parse::Yapp Grammar
 categories: [posts]
-tags: [Perl, Yapp, Yacc, Grammar, Emacspeak, Parser]
+tags: [ttsprojects,emacspeak,parser]
 ---
 
 I've added a Parse::Yapp grammar to:
