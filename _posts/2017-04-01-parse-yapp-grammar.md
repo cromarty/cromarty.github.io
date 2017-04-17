@@ -9,7 +9,7 @@ tags: [ttsprojects,emacspeak,parser]
 
 I've added a Parse::Yapp grammar to:
 
-	generic/emacspeak/parser/parser.yp
+	generic/emacspeak/parser/perl/parser.yp
 
 Currently it's a direct equivalent to the Bison grammar `parser.y` in the same directory.
 
