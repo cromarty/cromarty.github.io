@@ -62,6 +62,20 @@
 
 <main id="content"><!-- from home.html -->
  {{content}}
+<!-- added ../res -->
+
+{% for post in paginator.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    {{ post.content }}
+    </div>
+    
+
+
+<!-- end of ../res -->
       {% include footer.html %}
 </body>
 </html>
