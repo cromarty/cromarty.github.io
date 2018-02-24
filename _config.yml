@@ -29,6 +29,10 @@ collections:
   ttsprojects:
     output: true
     permalink: /:collection/:path/ 
+		rpi-image-tool:
+				output: true
+				permalink: /:collection/:path/
+
 
   rpi-stuff:
     output: true
