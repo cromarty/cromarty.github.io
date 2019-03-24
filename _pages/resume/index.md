@@ -139,7 +139,12 @@ At school between 1976 and 1981:
 
 ### Web sites
 
-* https://cromarty.github.io
-* http://eyesfreelinux.ninja
-* http://www.raspberryvi.org
+* [https://cromarty.github.io][io]
+* [http://eyesfreelinux.ninja][efln]
+* [http://www.raspberryvi.org][rvi]
+
+
+[io]: https://cromarty.github.io/
+[rvi]: http://www.raspberryvi.org/
+[efln]: http://eyesfreelinux.ninja/
 
