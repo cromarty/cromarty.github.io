@@ -35,10 +35,6 @@ collections:
     permalink: /:collection/:path/
 
 
-  rpi-stuff:
-    output: true
-    permalink: /:collection/:path/ 
-
   dmm:
     output: true
     permalink: /:collection/:path/ 

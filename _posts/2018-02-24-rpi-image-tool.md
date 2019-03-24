@@ -10,8 +10,6 @@ tags: [Raspberry]
 
 I have completed the `rpi-image-tool` system.
 
-This work replaces `imgtool` which was originally contained in my `rpi-stuff` repository.
-
 The `rpi-image-tool` system is able to:
 
 * Create a new and empty `.img` file containing the necessary small `FAT32` boot partition and the larger Linux partition.

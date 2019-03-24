@@ -5,7 +5,7 @@ layout: default
 <article class="posts">
  <article role="article">
         <header>
-            <h2>{{page.title}}</h2>
+            <title>{{page.title}}</title>
         </header>
         {{content}}
     </article>

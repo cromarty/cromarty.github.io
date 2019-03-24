@@ -10,16 +10,16 @@ my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
 my $filedate = sprintf("%d-%02d-%02d",$year+1900,$mon+1,$mday);
 my $ttpath = $ENV{'TT_PATH'} || "./templates";
 
-my $template ="$ttpath/post.tt";
+my $template ="$ttpath/page.tt";
 
-my $postfilename;
+my $pagefilename;
 my $title;
 
 $#ARGV == 0 || die <<EOF;
 
 Usage:
 
-	$0 "Title of the post"
+	$0 "Title of the page"
 
 EOF
 
@@ -33,8 +33,8 @@ $title =~ s|\s+|-|g;
 $title =~ s|\'||g;
 
 
-$postfilename = "_posts/$filedate-$title.md";
-print "$postfilename\n";
+$pagefilename = "_pages/$filedate-$title.md";
+print "$pagefilename\n";
 
 my $tt = Template->new(
 	{
@@ -43,4 +43,4 @@ my $tt = Template->new(
 	}
 );
 
-	$tt->process($template, $ttvars, $postfilename) || die $tt->error;
+	$tt->process($template, $ttvars, $pagefilename) || die $tt->error;
