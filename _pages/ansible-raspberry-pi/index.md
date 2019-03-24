@@ -5,5 +5,14 @@ permalink: /ansible-raspberry-pi/
 ---
 
 
-Holding page.
+This repository contains [`Ansible`][ansible] code for configuring the
+[Raspberry Pi][rpi] single-board computer.
+
+It contains mostly roles and playbooks concerned with configuring
+accessibility tools, such as the `speakup` screen reader.
+
+
+
+[rpi]: https://www.raspberrypi.org/
+[ansible]: https://www.ansible.com/
 
