@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 page-type: post
 date: 2019/02/24 17:55:27 +0
 title: Ansible Role to Secure Docker with TLS

@@ -3,4 +3,6 @@ res
 *~
 *.log
 
-
+# jekyll output
+_site/
+Gemfile.loc

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 page-type: post
 date: 2019/03/24 18:18:47 +0
 title: Ansible Code for Configuring a Raspberry Pi

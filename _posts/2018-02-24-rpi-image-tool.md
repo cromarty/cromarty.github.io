@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 page-type: post
 date: 2018-02-24 10:57:12 +0
 title: rpi-image-tool

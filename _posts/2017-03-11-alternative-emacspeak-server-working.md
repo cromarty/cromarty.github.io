@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 page-type: post
 date: 2017-03-11 02:57:12 +0
 title: Alternative emacspeak Server Working

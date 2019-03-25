@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 page-type: post
 date: 2017-04-01 10:57:12 +1
 title: Parse::Yapp Grammar
