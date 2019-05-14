@@ -5,4 +5,4 @@ res
 
 # jekyll output
 _site/
-Gemfile.loc
+Gemfile.lock
